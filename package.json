@@ -2,14 +2,20 @@
   "name": "kodex",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel ./src/*.html",
+    "predeploy": "rimraf -rf dist && parcel build ./src/*.html --public-url https://github.com/Jvldwin/kodex/",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "parcel": "^2.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "prettier": "2.5.1"
   }
 }
