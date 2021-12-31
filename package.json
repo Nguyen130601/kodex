@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel ./src/*.html",
-    "predeploy": "rimraf -rf dist && parcel build ./src/*.html --public-url https://raw.githubusercontent.com/Jvldwin/kodex/gh-pages",
+    "predeploy": "rimraf -rf dist && parcel build ./src/*.html --public-url https://jvldwin.github.io/kodex/",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
