@@ -1,0 +1,2 @@
+const menu=document.querySelector("#toggle"),menuItems=document.querySelector("#overlay"),menuContainer=document.querySelector(".menu-container"),menuIcon=document.querySelector("i");function toggleMenu(e){menuItems.classList.toggle("open"),menuContainer.classList.toggle("full-menu"),menuIcon.classList.toggle("fa-bars"),menuIcon.classList.add("fa-times"),e.preventDefault()}menu.addEventListener("click",toggleMenu,!1);
+//# sourceMappingURL=index.4dd40ce9.js.map
