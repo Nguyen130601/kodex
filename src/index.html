@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kodex</title>
     <link rel="stylesheet" href="./style.scss">
-    <script src="./app.js"></script>
 </head>
 <body>
     <div class="slide-menu">
         <div class="slider-header">
-            <div class="logo"></div>
-            <div class="menu-button"></div>
+            <a class="navbar-logo" href="#">
+                <img class="navbar-logo-image" src="https://global-uploads.webflow.com/5f8e97a7f04a9fe98d9401a6/61968ba41d8cb64ea9810371_outline%20logo.svg">
+                <div>
+                    <div class="logo-text">Memorisely</div>
+                </div>
+            </a>
+            <div id="outline" class="outline">Close</div>
         </div>
-        <div class="slider-body">
+        <div id="slider-body" class="slider-body">
             <div class="footer-column">
-                <div class="footer-column-title"></div>
-                <div class="footer-column-item"></div>
+                <div class="footer-header">LIVE BOOTCAMPS</div>
+                <a href="#"><div class="footer-column-item">UI/UX design bootcamp</div></a>
+                <a href="#"><div class="footer-column-item">UI design bootcamp</div></a>
             </div>
         </div>
     </div>
@@ -141,11 +146,12 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="slide-menu">
         <div class="footer-column">
-            <div class="footer-column-title"></div>
-            <div class="footer-column-item"></div>
-        </div>
+            <div class="footer-header">LIVE BOOTCAMPS</div>
+            <a href="#"><div class="footer-column-item">UI/UX design bootcamp</div></a>
+            <a href="#"><div class="footer-column-item">UI design bootcamp</div></a>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>

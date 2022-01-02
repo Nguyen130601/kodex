@@ -214,3 +214,54 @@ h6 {
     background-position: 0 0,26% 63%;
     background-size: auto,cover;
 }
+.slide-menu {
+    padding :2.4rem 1.6rem ;
+    background-color: #faf8f5; 
+}
+.slider-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfdbd1;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.outline {
+    display: inline-block;
+    padding: 12px 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 3px solid #191b1d;
+    border-radius: 8px;
+    background-color: transparent;
+    -webkit-transition: color .2s,box-shadow .2s,background-color .2s;
+    transition: color .2s,box-shadow .2s,background-color .2s;
+    font-family: Inter,sans-serif;
+    color: #191b1d;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    &:focus {
+        color: red;
+    }
+}
+.navbar-logo {
+    display: flex;
+    .logo-text {
+        display: none;
+    }
+}
+.navbar-logo-image {
+    height: 8vh;
+    margin-right: 0.8rem;
+}
+.footer-header {
+    border-bottom: 1px solid #dfdbd1;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.footer-column-item {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
