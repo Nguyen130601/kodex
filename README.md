@@ -1,2 +1,2 @@
 # kodex
-Kodex is a template landing page for coding bootcamp
+Kodex is a responsive landing page for coding bootcamp bundled with parcel
