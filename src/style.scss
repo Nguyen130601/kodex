@@ -336,6 +336,9 @@ h6 {
     padding-bottom: 0.2rem;
 }
 @media screen and (min-width: 40em) {
+    .layout-grid {
+        column-gap: 4rem;
+    }
     .hero-columns {
         -ms-grid-columns: 1fr 0.8fr;
         grid-template-columns: 1fr 0.8fr;
