@@ -111,6 +111,7 @@ h6 {
     display: grid;
     grid-auto-columns: 1fr;
     width: 100%;
+    justify-content: space-between;
 }
 .hero-columns {
     grid-template-columns: 1fr;
